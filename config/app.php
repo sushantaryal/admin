@@ -170,6 +170,7 @@ return [
         Intervention\Image\ImageServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Cviebrock\EloquentSluggable\ServiceProvider::class,
+	    Taggers\Settings\SettingsServiceProvider::class,
 
         //
 
