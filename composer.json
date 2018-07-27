@@ -24,10 +24,12 @@
             "database"
         ],
         "files": [
-            "app/Helper/helpers.php"
+            "app/Helper/helpers.php",
+            "packages/taggers/settings/src/Settings/helpers.php"
         ],
         "psr-4": {
-            "Source\\": "app/"
+            "Source\\": "app/",
+            "Taggers\\Settings\\": "packages/taggers/settings/src/Settings"
         }
     },
     "autoload-dev": {
